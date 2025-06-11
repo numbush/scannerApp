@@ -27,10 +27,10 @@ This guide will help you deploy your Receipt Scanner App to Vercel.
 
 3. **Configure Build Settings**
    - Framework Preset: Next.js
-   - Root Directory: `receipt-scanner-app/server`
-   - Build Command: `npm run build`
-   - Output Directory: `.next`
-   - Install Command: `npm install`
+   - Root Directory: `server` (IMPORTANT: Set this to server, not receipt-scanner-app/server)
+   - Build Command: `npm run build` (leave default)
+   - Output Directory: `.next` (leave default)
+   - Install Command: `npm install` (leave default)
 
 4. **Deploy**
    - Click "Deploy"

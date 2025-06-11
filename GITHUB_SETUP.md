@@ -47,10 +47,10 @@ Now that your code is on GitHub, you can deploy to Vercel:
 3. Import your GitHub repository
 4. Configure the build settings:
    - **Framework Preset**: Next.js
-   - **Root Directory**: `server`
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `.next`
-   - **Install Command**: `npm install`
+   - **Root Directory**: `server` (CRITICAL: Set this to "server" only)
+   - **Build Command**: `npm run build` (leave default)
+   - **Output Directory**: `.next` (leave default)
+   - **Install Command**: `npm install` (leave default)
 5. Click "Deploy"
 
 ## Alternative: Using GitHub CLI (if you have it installed)
